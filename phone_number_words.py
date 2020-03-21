@@ -13,7 +13,7 @@ for obj, ele in accept_numbers:
     div = []
     for a in range(len(ele)):
         div.append(obj[0:int(ele[a])])
-        obj = obj.replace(obj[0:int(ele[a])],'')
+        obj = obj[int(ele[a]):]
     num.append(div)
 
 interpret = ({'0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four', '5': 'five', 
