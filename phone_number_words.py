@@ -4,7 +4,7 @@ test_cases = int(input("How many numbers do you want to test?: "))
 accept_numbers = [input() for i in range (test_cases)]
 accept_numbers = [case.split() for case in accept_numbers]
 
-for each in range(len(accept_numbers)):
+for each in range(test_cases):
     accept_numbers[each][1] = accept_numbers[each][1].split('-')
 
 num = []
@@ -21,7 +21,7 @@ interpret = ({'0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four', '5
 {'':1, 'double':2, 'triple':3, 'quadruple':4, 'quintuple':5, 'sextuple':6, 'septuple':7, 'octuple':8, 'nonuple':9,
 'decuple':10})
 
-for count in range(len(num)):
+for count in range(test_cases):
     words = ''
     numer = [[''.join(g) for _, g in groupby(ele)] for ele in num[count]]
     for ele in numer:
