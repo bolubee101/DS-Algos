@@ -1,10 +1,3 @@
-'''
-import re
-pattern = re.compile(r"6([0-9]).(-)")
-num = 99876 9-8
-x = pattern.match(num)
-print(x)
-'''
 
 import random
 import math
