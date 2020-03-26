@@ -1,5 +1,5 @@
 '''
-RECURSIVE DIGIT
+SUPER DIGIT: gotten from the recursive sum of individual numbers
 function name: superdigit
 n = string rep of an integer
 k = an integer representing the  number of concatenation
