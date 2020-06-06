@@ -1,4 +1,4 @@
-# DS snd Algos
+# DS and Algos
 
 Yaaay!! I and Akin would be trying our hands on hackerrank questions. 
 Goodluck to us! 
