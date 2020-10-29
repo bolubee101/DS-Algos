@@ -1,4 +1,5 @@
 #create a class to implement stack functions
+
 class Stack:
     #define a stack (list)
     def __init__(self):
@@ -12,7 +13,7 @@ class Stack:
     def push(self,item):
         return self.items.append(item) 
     
-    #to delete the first element from the list
+    #to delete the last element from the list
     def pop_item(self):
         return self.items.pop()
     
@@ -23,6 +24,7 @@ class Stack:
     #to determine the size of the stack
     def size(self):
         return len(self.items)
+
 '''
 word = Stack()
 word.push('x')
